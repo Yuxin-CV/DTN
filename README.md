@@ -27,10 +27,6 @@ python main_DTN.py --N-way 5 --N-shot 5 --evaluate 1 --resume 'your_checkpoint/c
 # 5-way 1-shot
 python main_DTN.py --N-way 5 --N-shot 1 --evaluate 1 --resume 'your_checkpoint/checkpoint.pth.tar'
 ```
-## Acknowledgment
-[Horizon Robotics](http://en.horizon.ai/)
-
-## License
 
 ## Citations
 If you find DTN useful in your research, please consider citing:
@@ -41,5 +37,11 @@ If you find DTN useful in your research, please consider citing:
   year={2019}
 }
 ```
+
+## License
+
+## Acknowledgment
+[Horizon Robotics](http://en.horizon.ai/)
+
 ## Thanks to the Third Party Libs
 [Pytorch](https://github.com/pytorch/pytorch)   
