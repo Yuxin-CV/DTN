@@ -2,7 +2,15 @@
 
 Pytorch implementation for ["Diversity Transfer Network for Few-Shot Learning"](http://arxiv.org/abs/1912.13182) (deep backbone, on miniImageNet).
 
-We also provide our trainded model.
+We also provide our trainded models.
+
+## Introduction
+
+Few-shot learning is a challenging task that aims at training a classiﬁer for unseen classes with only a few training examples. The main difﬁculty of few-shot learning lies in the lack of intra-class diversity within insufﬁcient training samples. To alleviate this problem, we propose a novel generative framework, Diversity Transfer Network (DTN), that learns to transfer latent diversities from known categories and composite them with support features to generate diverse samples for novel categories in feature space. The learning problem of the sample generation (i.e., diversity transfer) is solved via minimizing an effective meta-classiﬁcation loss in a single-stage network, instead of the generative loss in previous works. 
+
+Besides, an organized auxiliary task co-training over known categories is proposed to stabilize the meta-training process of DTN.
+
+![alt text](DTN_fig.png)
 
 ## Dataset Preprocessing & Evaluate our trained model on miniImageNet
 
@@ -13,6 +21,8 @@ Run:
 ```bash
 bash make.sh
 ```
+We provide our trainded models for practitioners to reproduce our results listed in Table 3 of the [DTN paper](http://arxiv.org/abs/1912.13182) (deep backbone, on miniImageNet).
+![alt text](Table3_fig.png)
 
 ## Train your DTN on miniImageNet
 
