@@ -16,12 +16,12 @@ bash make.sh
 
 ## Train your DTN on miniImageNet
 
-```python
+```
 python main_DTN.py --checkpoint 'your_checkpoint'
 ```
 
 ## Evaluate your DTN on miniImageNet
-```python
+```
 # 5-way 5-shot
 python main_DTN.py --N-way 5 --N-shot 5 --evaluate 1 --resume 'your_checkpoint/checkpoint.pth.tar'
 # 5-way 1-shot
