@@ -1,4 +1,4 @@
-# Diversity Transfer Network
+# Diversity Transfer Network for Few-Shot Learning
 
 Pytorch implementation for ["Diversity Transfer Network for Few-Shot Learning"](http://arxiv.org/abs/1912.13182) (deep backbone, on miniImageNet).
 
