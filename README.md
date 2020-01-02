@@ -1,6 +1,7 @@
 # Diversity Transfer Network
 
-Pytorch implementation for "Diversity Transfer Network for Few-Shot Learning" (deep backbone, on miniImageNet).
+Pytorch implementation for ["Diversity Transfer Network for Few-Shot Learning"](http://arxiv.org/abs/1912.13182) (deep backbone, on miniImageNet).
+
 We also provide our trainded model.
 
 ## Dataset Preprocessing & Evaluate our trained model on miniImageNet
