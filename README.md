@@ -8,7 +8,7 @@ We also provide our trainded model.
 
 Download the dataset from [this link](https://drive.google.com/open?id=1XapMobTsCSw9gyySt9D0GF_hOX_XpeZx), put the `images` folder in `./miniImageNet/`.
 
-Then run:
+Run:
 
 ```bash
 bash make.sh
