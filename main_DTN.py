@@ -161,11 +161,6 @@ def main():
     train_acc, train_loss, base_train_loss, base_train_acc = 0, 0, 0, 0
     best_val_acc = 0
 
-    # There is a little inconsistency between the code and the paper: 
-    # we have an additional auxiliary epoch A in the actual implementation.
-    # In the paper, the the whole training sequence is: S = 10A + (4A + 1M) × 2 + (3A + 2M) × 2
-    # In the code,  the the whole training sequence is: S = 11A + (4A + 1M) × 2 + (3A + 2M) × 2
-    # The reason is that there is a problem with the setting of milestones of the training schedule in line 84. 
     TRAIN_PHASE = ['a']*11 + ['a']*4 + ['m']*1 + ['a']*4 + ['m']*1 + (['a']*3 + ['m']*2)*20
 
     for epoch in range(args.start_epoch, args.epochs):
