@@ -43,10 +43,12 @@ python main_DTN.py --N-way 5 --N-shot 1 --evaluate 1 --resume 'your_checkpoint/c
 ## Citations
 If you find DTN useful in your research, please consider citing:
 ```
-@inproceedings{Chen2019DiversityTN,
-  title={Diversity Transfer Network for Few-Shot Learning},
-  author={Mengting Chen and Yuxin Fang and Xinggang Wang and Heng Luo and Yifeng Geng and Xinyu Zhang and Chang Huang and Wenyu Liu and Bo Wang},
-  year={2019}
+@inproceedings{chen2020diversity,
+  title={Diversity Transfer Network for Few-Shot Learning.},
+  author={Chen, Mengting and Fang, Yuxin and Wang, Xinggang and Luo, Heng and Geng, Yifeng and Zhang, Xinyu and Huang, Chang and Liu, Wenyu and Wang, Bo},
+  booktitle={AAAI},
+  pages={10559--10566},
+  year={2020}
 }
 ```
 
