@@ -4,6 +4,18 @@ Pytorch implementation for ["Diversity Transfer Network for Few-Shot Learning"](
 
 We also provide our trainded models.
 
+## Citations
+If you find DTN useful in your research, please consider citing:
+```
+@inproceedings{chen2020diversity,
+  title={Diversity Transfer Network for Few-Shot Learning.},
+  author={Chen, Mengting and Fang, Yuxin and Wang, Xinggang and Luo, Heng and Geng, Yifeng and Zhang, Xinyu and Huang, Chang and Liu, Wenyu and Wang, Bo},
+  booktitle={AAAI},
+  pages={10559--10566},
+  year={2020}
+}
+```
+
 ## Introduction
 
 Few-shot learning is a challenging task that aims at training a classiﬁer for unseen classes with only a few training examples. The main difﬁculty of few-shot learning lies in the lack of intra-class diversity within insufﬁcient training samples. 
@@ -40,17 +52,6 @@ python main_DTN.py --N-way 5 --N-shot 5 --evaluate 1 --resume 'your_checkpoint/c
 python main_DTN.py --N-way 5 --N-shot 1 --evaluate 1 --resume 'your_checkpoint/checkpoint.pth.tar'
 ```
 
-## Citations
-If you find DTN useful in your research, please consider citing:
-```
-@inproceedings{chen2020diversity,
-  title={Diversity Transfer Network for Few-Shot Learning.},
-  author={Chen, Mengting and Fang, Yuxin and Wang, Xinggang and Luo, Heng and Geng, Yifeng and Zhang, Xinyu and Huang, Chang and Liu, Wenyu and Wang, Bo},
-  booktitle={AAAI},
-  pages={10559--10566},
-  year={2020}
-}
-```
 
 ## License
 DTN is released under the MIT license. See [LICENSE](LICENSE) for additional details.
